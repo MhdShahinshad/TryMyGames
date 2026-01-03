@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>My Game Lab</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        margin: 0;
-        padding: 20px;
-        font-family: Arial, sans-serif;
-    }
-
-    .author {
-        position: fixed;
-        top: 10px;
-        right: 15px;
-        font-size: 14px;
-        color: #555;
-    }
-</style>
-
 <body>
-    <div class="author">
-        Author : Shahin Shad
-    </div>
-    <h1>Welcome to The Game Lab</h1>
-    <p>I am learning game development. Try my games.</p>
 
-    <ul>
-        <li>Flappy Clone (coming soon)</li>
-        <li>Box Jump Game (coming soon)</li>
-    </ul>
+    <div class="container">
+        <h1>Welcome to The Game Lab</h1>
+        <p class="subtitle">I am learning game development. Try my games.</p>
+
+        <div class="game-list">
+            <div class="game-card">
+                <h2>Flappy Clone</h2>
+                <p>Status: Coming Soon</p>
+                <button disabled>Play</button>
+            </div>
+
+            <div class="game-card">
+                <h2>Box Jump Game</h2>
+                <p>Status: Coming Soon</p>
+                <button disabled>Play</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Author: Shahin Shad
+    </footer>
 
 </body>
 </html>
